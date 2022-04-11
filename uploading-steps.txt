@@ -1,1 +1,23 @@
+/* Steps to install and send file to AWS s3 bucket using AWS CLI */
 
+
+
+_______________________________________________________________________
+|_|_________________________________________________________________|__|
+  |         sudo apt update                                         |
+  |                                                                 |
+  |         sudo apt install awscli                                 |
+  |                                                                 |
+  |         aws --version                                           |
+  |                                                                 |
+  |         aws configure                                           |
+  |                                                                 |
+  |                                                                 |
+  |                                                                 |               
+  |       AWS Acess Key Id : /* write access key id */              |
+  |       AWS Secret Access Key : /* write Secret Access  Key */    |
+  |       Default region name : /* write the reigion of bucket */   |
+  |                                                                 |
+  |       aws s3 cp fie_name s3://bucket_name/                      |
+  |                                                                 |
+  |_________________________________________________________________|
